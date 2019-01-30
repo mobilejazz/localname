@@ -1,0 +1,43 @@
+{
+  "name": "BugfenderSDK",
+  "version": "1.4.5",
+  "platforms": {
+    "osx": "10.9"
+  },
+  "license": {
+    "type": "Commercial",
+    "text": "See https://bugfender.com/terms-of-service/"
+  },
+  "summary": "Bugfender: a mobile remote logger",
+  "description": "A modern remote logger tailor-made for mobile development.",
+  "homepage": "https://bugfender.com",
+  "authors": {
+    "Bugfender": "support@bugfender.com"
+  },
+  "social_media_url": "https://twitter.com/bugfenderapp",
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/bugfender/BugfenderSDK-macOS.git",
+    "tag": "1.4.5"
+  },
+  "prepare_command": "cp BugfenderSDK.framework/Headers/BugfenderSDK.h BugfenderSDK.h\ncp BugfenderSDK.framework/BugfenderSDK libBugfenderSDKstatic.a",
+  "default_subspecs": "Swift",
+  "osx": {
+    "frameworks": "WebKit"
+  },
+  "subspecs": [
+    {
+      "name": "ObjC",
+      "vendored_libraries": "libBugfenderSDKstatic.a",
+      "source_files": "BugfenderSDK.h"
+    },
+    {
+      "name": "Swift",
+      "vendored_libraries": "libBugfenderSDKstatic.a",
+      "source_files": [
+        "swift/*.swift",
+        "BugfenderSDK.h"
+      ]
+    }
+  ]
+}

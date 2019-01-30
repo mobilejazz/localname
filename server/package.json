@@ -1,0 +1,12 @@
+{
+  "name": "tunnel-server",
+  "version": "0.0.1",
+  "description": "tunnel server, server side",
+  "dependencies": {
+    "express": "~4.10.2",
+    "iap_verifier": "~0.0.12",
+    "socket.io": "~1.3.7",
+    "uuid": "~2.0.1",
+    "validator": "^7.0.0"
+  }
+}

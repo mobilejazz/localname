@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :osx, '10.11'
+use_frameworks!
+
+target 'Localname' do
+	pod 'Socket.IO-Client-Swift'
+	pod 'SwiftSocket'
+    pod 'Google-Analytics-for-OS-X'
+    pod 'OpenSSL-Universal', '~> 1.0'
+    pod 'BugfenderSDK', :git => 'https://github.com/bugfender/BugfenderSDK-macOS.git'
+end

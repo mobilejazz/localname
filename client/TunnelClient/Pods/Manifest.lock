@@ -1,0 +1,42 @@
+PODS:
+  - BugfenderSDK (1.4.5):
+    - BugfenderSDK/Swift (= 1.4.5)
+  - BugfenderSDK/Swift (1.4.5)
+  - Google-Analytics-for-OS-X (1.1)
+  - OpenSSL-Universal (1.0.1.20)
+  - Socket.IO-Client-Swift (8.3.3)
+  - SwiftSocket (2.0.1)
+
+DEPENDENCIES:
+  - BugfenderSDK (from `https://github.com/bugfender/BugfenderSDK-macOS.git`)
+  - Google-Analytics-for-OS-X
+  - OpenSSL-Universal (~> 1.0)
+  - Socket.IO-Client-Swift
+  - SwiftSocket
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Google-Analytics-for-OS-X
+    - OpenSSL-Universal
+    - Socket.IO-Client-Swift
+    - SwiftSocket
+
+EXTERNAL SOURCES:
+  BugfenderSDK:
+    :git: https://github.com/bugfender/BugfenderSDK-macOS.git
+
+CHECKOUT OPTIONS:
+  BugfenderSDK:
+    :commit: e2bd60fac670af062adcd81ecc9dab5a43a52c1f
+    :git: https://github.com/bugfender/BugfenderSDK-macOS.git
+
+SPEC CHECKSUMS:
+  BugfenderSDK: 896a7142db9c664c079b24d7bb8b3b1ecbce185a
+  Google-Analytics-for-OS-X: 66376760d74d980fd81ad48b125c5496d3d4402a
+  OpenSSL-Universal: 71f2c4b2ae758e2218090f905e95ca0ac5c01be7
+  Socket.IO-Client-Swift: a2faffdbde89c63aebc5d631041530c1068b02b8
+  SwiftSocket: 2d814afdc97c89217982f86fd036c1874134a63f
+
+PODFILE CHECKSUM: 4ee8f4475d004d1f8da30bd2ae67433de7fc83f6
+
+COCOAPODS: 1.5.3
