@@ -10,11 +10,12 @@ Uses:
 
 Limitations:
 
- * macOS is supported only at the moment
+ * The server has been tested on Linux and macOS, might or might not work on Windows
+ * We only have a macOS client at the moment (but feel free to contribute!)
 
-This project was part of the [Bugfender suite of developer tools](https://bugfender.com).
+This project was part of the [Bugfender suite of developer tools](https://bugfender.com) to make developer's life a little bit easier every day.
 
-[Mobile Jazz](https://mobilejazz.com/), a web and mobile development company, built it as an experiment for development and communication with our clients.
+Localname was built by [Mobile Jazz](https://mobilejazz.com/) and [Bugfender](https://bugfender.com) as a commercial product experiment.
 
 This project is **usable**, although we do not intend to actively continue development.
 
