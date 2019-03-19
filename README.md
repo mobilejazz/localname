@@ -8,9 +8,13 @@ Uses:
  * Mobile App Testing: Test your mobile app backend from a real device without having to fiddle with local network configurations
  * Webhooks: Implement webhooks by providing a real callback URL to your development machine
 
-**macOS is supported only at the moment**
+Limitations:
 
-This project was built by [Mobile Jazz](https://mobilejazz.com/), a web and mobile development company, as an internal tool for development and communication with our clients.
+ * macOS is supported only at the moment
+
+This project was part of the [Bugfender suite of developer tools](https://bugfender.com).
+
+[Mobile Jazz](https://mobilejazz.com/), a web and mobile development company, built it as an experiment for development and communication with our clients.
 
 This project is **usable**, although we do not intend to actively continue development.
 
