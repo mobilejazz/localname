@@ -8,7 +8,13 @@ Uses:
  * Mobile App Testing: Test your mobile app backend from a real device without having to fiddle with local network configurations
  * Webhooks: Implement webhooks by providing a real callback URL to your development machine
 
-Limitations:
+Here is how our website used to look:
+
+![](img/landing.jpg)
+![](img/vp1.jpg)
+![](img/vp2.jpg)
+
+Current limitations:
 
  * The server has been tested on Linux and macOS, might or might not work on Windows
  * We only have a macOS client at the moment (but feel free to contribute!)
